@@ -13,7 +13,7 @@ INITIAL_ORDER_TEMP = None
 def create_initial_message():
     """Gera a mensagem de boas-vindas inicial do chatbot."""
     # O bot começa a conversa, então a mensagem do usuário é None no início.
-    initial_bot_message = "Olá! Seja bem-vindo(a) à Fredy Restaurante e Pizzaria! Sou seu assistente virtual. Para começar, por favor, me informe seu **telefone para contato** (apenas números, com DDD)."
+    initial_bot_message = "Olá! Seja bem-vindo(a) à Bone-Appetite Restaurante e Pizzaria! Sou seu assistente virtual. Para começar, por favor, me informe seu **telefone para contato** (apenas números, com DDD)."
     initial_history = [[None, initial_bot_message]] # Histórico inicial com apenas a mensagem do bot
     
     return initial_history, logic.STATE_GET_PHONE, INITIAL_CLIENT_DATA, INITIAL_ORDER_TEMP
